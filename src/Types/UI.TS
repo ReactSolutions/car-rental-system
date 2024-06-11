@@ -5,7 +5,6 @@ export interface InputFieldProp extends React.InputHTMLAttributes<InputFieldProp
     required?: boolean,
     error?: string,
     clasName?: string
-
 }
 export interface ButtonProp extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     label: string,
@@ -19,3 +18,4 @@ export interface ButtonProp extends React.ButtonHTMLAttributes<HTMLButtonElement
     type: "submit" | "reset" | "button",
     onClick?: (e: any) => void
 }
+
