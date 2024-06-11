@@ -1,4 +1,4 @@
-import { ButtonProp } from "@/types/ui";
+import { ButtonProp } from "@/types/ui.ts";
 export const Button = ({
 	label,
 	color = "bg-[#3563E9]",
